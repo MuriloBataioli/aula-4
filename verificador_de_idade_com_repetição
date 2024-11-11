@@ -1,0 +1,13 @@
+# idade = int(input('Diga a sua idade: '))
+# while idade <= 0:
+    # print('idade invalida, tente novamente')
+    # idade = int(input('Diga a sua idade: '))
+# print(idade)
+idade = int(input('escreva a sua idade: '))
+while True:
+    if idade < 0 or idade > 130:
+        print('idade invalida, tente novamente')
+        idade = int(input('Insira a sua idade: '))
+    else:
+        break
+print(f'sua idade é {idade}')
